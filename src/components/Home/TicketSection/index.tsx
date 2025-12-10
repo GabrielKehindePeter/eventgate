@@ -26,7 +26,7 @@ const TicketSection = () => {
                                     Become a Part of the Digital Evolution!
                                 </p>
                                 <Link
-                                    href="/"
+                                    href="/get-ticket"
                                     className="btn btn-1 hover-filled-slide-down rounded-lg overflow-hidden before:bg-ElectricAqua"
                                 >
                                     <span className="sm:!px-20 px-10 !border-ElectricAqua !text-white">

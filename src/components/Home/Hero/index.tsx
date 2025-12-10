@@ -33,7 +33,7 @@ const Hero = () => {
                         </p>
                         <div className="flex items-center md:justify-normal lg:justify-center justify-start flex-wrap gap-4">
                             <Link
-                                href="/"
+                                href="/get-ticket"
                                 data-aos="fade-up"
                                 data-aos-delay="500"
                                 data-aos-duration="1000"

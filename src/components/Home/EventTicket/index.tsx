@@ -58,7 +58,7 @@ const EventTicket = () => {
                                         </p>
                                     </div>
                                     <Link
-                                        href="/"
+                                        href="/get-ticket"
                                         className="btn btn-1 hover-filled-slide-down w-full text-center rounded-lg overflow-hidden"
                                     >
                                         <span>Book ticket</span>
