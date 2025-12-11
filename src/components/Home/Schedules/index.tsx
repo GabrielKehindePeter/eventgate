@@ -46,66 +46,7 @@ const Schedules = () => {
               </div>
             </div>
 
-            {/* Insert intermissions at appropriate places */}
-            {index === 1 && (
-              <div data-aos="fade-up" data-aos-delay={`${index*200}`} data-aos-duration="1000" className="flex items-center flex-wrap justify-between w-full md:py-12 py-5 border-b border-solid border-border dark:border-dark_border">
-                <div className="lg:min-w-96 min-w-max">
-                  <h6 className="text-[26px] leading-[2.1rem] font-bold text-secondary dark:text-white max-w-286">
-                    {intermissions[0].title}
-                  </h6>
-                </div>
-                <div className="flex items-center flex-wrap gap-30 lg:min-w-96 min-w-max">
-                  <div className="flex items-center">
-                    <Image
-                      src={intermissions[0].image}
-                      alt="coffee break"
-                      width={0}
-                      height={0}
-                      quality={100}
-                      layout="responsive"
-                      sizes="100vh"
-                      className="!w-10 !h-10 rounded-full"
-                    />
-                  </div>
-                  <div>                    
-                    <p className="text-lg font-normal text-SlateBlueText dark:text-opacity-80">
-                      {intermissions[0].time}
-                    </p>
-                  </div>
-                </div>
-                <div className="lg:min-w-40 min-w-max"></div> {/* No button for intermission row */}
-              </div>
-            )}
-
-            {index === 3 && (
-              <div data-aos="fade-up" data-aos-delay={`${index*200}`} data-aos-duration="1000" className="flex items-center flex-wrap justify-between w-full md:py-12 py-5 border-b border-solid border-border dark:border-dark_border">
-                <div className="lg:min-w-96 min-w-max">
-                  <h6 className="text-[26px] leading-[2.1rem] font-bold text-secondary dark:text-white max-w-286">
-                    {intermissions[1].title}
-                  </h6>
-                </div>
-                <div className="flex items-center flex-wrap gap-30 lg:min-w-96 min-w-max">
-                  <div className="flex items-center">
-                    <Image
-                      src={intermissions[1].image}
-                      alt="lunch break"
-                      width={0}
-                      height={0}
-                      quality={100}
-                      layout="responsive"
-                      sizes="100vh"
-                      className="!w-10 !h-10 rounded-full"
-                    />
-                  </div>
-                  <div>                    
-                    <p className="text-lg font-normal text-SlateBlueText dark:text-opacity-80">
-                      {intermissions[1].time}
-                    </p>
-                  </div>
-                </div>
-                <div className="lg:min-w-40 min-w-max" ></div> {/* No button for intermission row */}
-              </div>
-            )}
+         
           </React.Fragment>
         ))}
       </div>
