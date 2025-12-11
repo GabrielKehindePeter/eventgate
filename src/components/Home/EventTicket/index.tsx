@@ -8,19 +8,16 @@ const EventTicket = () => {
             <section className="dark:bg-darkmode pt-0">
                 <div className="container">
                     <div className="text-center md:pb-20 pb-8">
-                        <h2 className="pb-8" data-aos="fade-up" data-aos-delay="200" data-aos-duration="1000">The Biggest Digital Event in 2024</h2>
+                        <h2 className="pb-8" data-aos="fade-up" data-aos-delay="200" data-aos-duration="1000">Lagos 2025 Developers Festiver/Get-Together</h2>
                         <p data-aos="fade-up" data-aos-delay="300" data-aos-duration="1000" className="text-SlateBlueText dark:text-opacity-80 text-lg font-normal max-w-920 m-auto">
-                            Sometimes by accident, sometimes chunks as necessary making this
-                            the first true generator on the Internet. recently with desktop
-                            publishing software like Aldus PageMaker including versions of
-                            Lorem Ipsum was popularised in the 1960s with the release of
-                            Letraset sheets containing Lorem Ipsum passages.
+                            Connect, collaborate, and grow!
+Join top developers, engineers, and tech enthusiasts from across Nigeria for an unforgettable evening of learning, innovation, and community. The Lagos 2025 Developers Get-Together brings you inspiring tech conversations, real-world insights, hands-on experiences, and powerful networking opportunities that can shape your next big move.
                         </p>
                     </div>
                     <div className="flex flex-wrap items-stretch" data-aos="fade-up" data-aos-delay="400" data-aos-duration="1000">
                         <div className="bg-primary flex items-center justify-center lg:px-16 px-8 lg:py-0 py-8 lg:rounded-l-22 rounded-t-22 md:rounded-tr-none md:rounded-bl-22 rounded-bl-none md:w-2/4 w-full">
                             <Image
-                                src="/images/event-ticket/flyer4.png"
+                                src="/images/event-ticket/devfest.webp"
                                 alt="ticket"
                                 width={0}
                                 height={0}
@@ -37,7 +34,7 @@ const EventTicket = () => {
                                 <div className="space-y-4">
                                     <div className="flex flex-wrap items-center md:gap-30 gap-2">
                                         <span className="text-[22px] leading-[2rem] font-bold text-secondary dark:text-white">
-                                            $100
+                                            &#8358;4000
                                         </span>
                                         <p className="text-xl font-normal text-secondary dark:text-darktext">
                                             Early birds
@@ -48,7 +45,7 @@ const EventTicket = () => {
                                     </div>
                                     <div className="flex flex-wrap items-center md:gap-30 gap-2">
                                         <span className="text-[22px] leading-[2rem] font-bold text-secondary dark:text-white">
-                                            $150
+                                            &#8358;6500
                                         </span>
                                         <p className="text-xl font-normal text-secondary dark:text-darktext">
                                             Late birds

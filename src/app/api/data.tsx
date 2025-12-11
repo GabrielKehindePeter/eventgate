@@ -29,9 +29,9 @@ export const speakers = [
     },
     {
         id: 5,
-        src: "/images/comedians/okay.jpg",
-        alt: "okay bacasi",
-        name: "Okay Bacasi",
+        src: "/images/comedians/desktalker2.png",
+        alt: "Desktalker",
+        name: "Desk Talker",
         designation: "Main Comdian",
     },
 ];

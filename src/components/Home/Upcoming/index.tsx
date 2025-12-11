@@ -17,7 +17,7 @@ const Upcoming = () => {
               </div>
               <div>
                 <div className="flex items-center flex-wrap w-full border border-solid  dark:border-dark_border md:px-14 px-6 md:mt-14 mt-6 rounded-22">
-                  {conferences.slice(0, 2).map((conference, index) => (
+                  {conferences.slice(0, 3).map((conference, index) => (
                     <div
                       key={index}
                       data-aos="fade-up" data-aos-delay={`${index*300}`} data-aos-duration="1000"
@@ -51,7 +51,8 @@ const Upcoming = () => {
                       </div>
                       <div>
                         <Link
-                          href={conference.buttonLink}
+                          // href={conference.buttonLink}
+                          href='/get-ticket'
                           className="btn_outline btn-2 btn_outline hover-outline-slide-down"
                         >
                           <span>{conference.buttonText}</span>
