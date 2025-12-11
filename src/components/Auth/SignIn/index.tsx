@@ -49,7 +49,7 @@ const Signin = ({ signInOpen }: { signInOpen?: any }) => {
     return (
         <>
             <div className="mb-10 text-center mx-auto inline-block max-w-[160px]">
-                <Logo />
+                <h2>Event<span className="text-blue-600">Gate</span></h2>
             </div>
 
             <SocialSignIn />

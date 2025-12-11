@@ -22,7 +22,7 @@ const ContactInfo = () => {
                                     </p>
                                 </div>
                                 <div>
-                                    <Link href="#" className="text-primary text-lg font-medium flex items-center gap-3 group hover:text-secondary dark:hover:text-white">
+                                    <Link href="mailto:kenp.code@gmail.com" className="text-primary text-lg font-medium flex items-center gap-3 group hover:text-secondary dark:hover:text-white">
                                         Leave a message
                                         <svg
                                             width="23"
@@ -47,16 +47,15 @@ const ContactInfo = () => {
                             <div className="flex md:flex-col sm:flex-row flex-col md:items-start sm:items-center items-start h-full justify-between">
                                 <div>
                                     <span className="text-secondary dark:text-white text-xl font-bold">
-                                        Careers
+                                        Call Us
                                     </span>
                                     <p className="text-SlateBlueText font-normal text-xl max-w-80 pt-3 pb-7 dark:text-opacity-80">
-                                        Sit ac ipsum leo lorem magna nunc mattis maecenas non
-                                        vestibulum
+                                        Put a call across to us and we will be happy to speak with you to clear you doubt
                                     </p>
                                 </div>
                                 <div>
-                                    <Link href="#" className="text-primary text-lg font-medium flex items-center gap-3 group hover:text-secondary dark:hover:text-white">
-                                        Send an application
+                                    <Link href="tell:+2348130146023" className="text-primary text-lg font-medium flex items-center gap-3 group hover:text-secondary dark:hover:text-white">
+                                        Place a call
                                         <svg
                                             width="23"
                                             height="17"
@@ -75,7 +74,9 @@ const ContactInfo = () => {
                         </div>
                     </div>
                     <div className="md:pt-28 pt-11 md:pb-28 pb-16">
-                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d938779.7831767448!2d71.05098621661072!3d23.20271516446136!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x395e82dd003ff749%3A0x359e803f537cea25!2sGANESH%20GLORY%2C%20Gota%2C%20Ahmedabad%2C%20Gujarat%20382481!5e0!3m2!1sen!2sin!4v1715676641521!5m2!1sen!2sin" width="1114" height="477" loading="lazy" referrerPolicy="no-referrer-when-downgrade" className="rounded-lg w-full"></iframe>
+                        {/* <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d938779.7831767448!2d71.05098621661072!3d23.20271516446136!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x395e82dd003ff749%3A0x359e803f537cea25!2sGANESH%20GLORY%2C%20Gota%2C%20Ahmedabad%2C%20Gujarat%20382481!5e0!3m2!1sen!2sin!4v1715676641521!5m2!1sen!2sin" width="1114" height="477" loading="lazy" referrerPolicy="no-referrer-when-downgrade" className="rounded-lg w-full"></iframe> */}
+
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3964.1415113723247!2d3.598889173504081!3d6.503764123395434!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x103bfa6a62e0cfd1%3A0x68e7633f0a376bea!2sBadore%20Rd%2C%20Lambasa%2C%20Lekki%20106104%2C%20Lagos!5e0!3m2!1sen!2sng!4v1765462524052!5m2!1sen!2sng" width="1114" height="477" loading="lazy" referrerPolicy="no-referrer-when-downgrade" className="rounded-lg w-full"></iframe>
                     </div>
                 </div>
                 <div className="border-b border-solid  dark:border-dark_border"></div>

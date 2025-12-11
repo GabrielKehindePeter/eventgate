@@ -45,8 +45,8 @@ const SignUp = ({ signUpOpen }: { signUpOpen?: any }) => {
 
     return (
         <>
-            <div className="mb-10 text-center mx-auto inline-block max-w-[160px]">
-                <Logo />
+            <div className="mb-10 text-center mx-auto inline-block max-w-[160px]"><br />
+                <h2>Event<span className="text-blue-600">Gate</span></h2>
             </div>
 
             <SocialSignUp />

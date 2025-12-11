@@ -28,16 +28,16 @@ const Footer: FC = () => {
                                 <Link href="/">Home</Link>
                             </li>
                             <li className="text-PaleCerulean sm:text-xl text-lg font-normal transition-all duration-0.4s hover:text-primary">
-                                <Link href="/">Speakers</Link>
+                                <Link href="/">Anchors</Link>
                             </li>
                             <li className="text-PaleCerulean sm:text-xl text-lg font-normal transition-all duration-0.4s hover:text-primary">
-                                <Link href="/">Schedule</Link>
+                                <Link href="/schedules">Events</Link>
                             </li>
                             <li className="text-PaleCerulean sm:text-xl text-lg font-normal transition-all duration-0.4s hover:text-primary">
                                 <Link href="/">About</Link>
                             </li>
                             <li className="text-PaleCerulean sm:text-xl text-lg font-normal transition-all duration-0.4s hover:text-primary">
-                                <Link href="/">Sponsors</Link>
+                                <Link href="/contact">Contact</Link>
                             </li>
                         </ul>
                     </div>
@@ -122,23 +122,17 @@ const Footer: FC = () => {
                 <div className="grid md:grid-cols-12 grid-cols-1 items-center py-8">
                     <div className="col-span-5">
                         <p className="text-base font-normal text-PaleCerulean">
-                            © All rights reserved. Made by{" "}
-                            <Link
-                                href="https://nextjs-templates.com/"
-                                className="hover:text-white"
-                                target="_blank"
-                            >
-                                NextJs Templates
-                            </Link>
+                           ©2025 All rights reserved EventsGate.
+                           
                         </p>
                         <p className="text-base font-normal text-PaleCerulean">
-                            Distributed by {" "}
+                            Designed and Developed by 
                             <Link
-                                href="https://themewagon.com/"
-                                className="hover:text-white"
+                                href=""
+                                className="text-blue-400 font-bold hover:text-white"
                                 target="_blank"
                             >
-                                ThemeWagon
+                                Tek Parlance
                             </Link>
                         </p>
                     </div>

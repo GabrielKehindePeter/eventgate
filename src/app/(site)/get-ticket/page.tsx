@@ -79,14 +79,14 @@ export default function HeroWithCard() {
 
   return (
     <div className="pt-36"> {/* replaced inline style with Tailwind */}
-      <div className="px-4 max-w-6xl mx-auto">
+      <div className="px-4 lg:max-w-6xl sm:max-w-12 mx-auto">
         {/* hero image */}
         <div
           className="w-full flex justify-center bg-blue-600"
           style={{ backgroundImage: "url('/images/events/edo-in-eko.jpg')" }}
         >
           <img
-            src="/images/event-ticket/flyer1.jpg"
+            src="/images/events/edo-in-eko.jpg"
             alt="hero"
             className="w-full h-80 sm:h-96 object-contain rounded-md"
           />
